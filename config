@@ -1,0 +1,12 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/kcenta77/SLCF-Test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "SLCF-Test"]
+	url = https://github.com/kcenta77/SLCF-Test.git
+	fetch = +refs/heads/*:refs/remotes/SLCF-Test/*
